@@ -540,6 +540,82 @@ span{
     width: 60%;
 }
 
+/* Projects Section */
+.projects{
+    min-height: auto;
+    padding-bottom: 7rem;
+}
+
+.projects .projects-row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.projects-row .projects-column{
+    flex: 1 1 40rem;
+}
+
+.projects-column .title{
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem;
+}
+
+.projects-column .projects-box{
+    position: relative;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    padding: 1.5rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.projects-column .projects-box::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: var(--second-bg-color);
+    z-index: -1;
+    transition: .5s;
+}
+
+.projects-column .projects-box:hover::before{
+    width: 100%;
+}
+
+.projects-box .year{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.projects-box .year i{
+    padding-right: .5rem;
+}
+
+.projects-box h3{
+    font-size: 2rem;
+}
+
+.projects img{
+    width: 100%;
+    border-radius: .6rem;
+    margin-top: 1rem;
+}
+
+.projecten-content .content h3{
+    font-size: 1.8rem;
+   text-align: center;
+}
+
+.projecten-content .content p{
+    font-size: 1.6rem;
+    padding-top: .5rem;
+}
+
 /* Contact Section */
 .contact{
     min-height: auto;
