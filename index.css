@@ -450,7 +450,6 @@ span {
 }
 
 /* Skills Section*/
-
 .skills {
     min-height: auto;
     padding-bottom: 7rem;
@@ -669,9 +668,15 @@ span {
 }
 
 .projects img {
-    width: 100%;
+    width: 70%;
+    display: flex;
+    margin: auto;
     border-radius: .6rem;
     margin-top: 1rem;
+}
+
+.projecten-content{
+    margin-bottom: 6rem;
 }
 
 .projecten-content .content h3 {
@@ -708,14 +713,18 @@ span {
 }
 
 /* Button style */
+.contact{
+    background: var(--second-bg-color);
+}
+
 .contact-btn {
     position: relative;
     display: inline-block;
     padding: 1.5rem 3rem;
     font-size: 1.6rem;
     font-weight: 600;
-    color: var(--main-color); 
-    background: transparent;   
+    color: var(--text-color); 
+    background: var(--main-color);   
     border: .2rem solid var(--main-color);
     border-radius: .8rem;
     text-decoration: none;
@@ -724,9 +733,9 @@ span {
     transition: color 0.5s, transform 0.3s ease;
 }
 
-.contact-btn:hover {
-    color: var(--bg-color);
-}
+/* .contact-btn:hover {
+    color: var(--second-bg-color);
+} */
 
 /* Hover background effect using pseudo-element */
 .contact-btn::before {
@@ -736,7 +745,7 @@ span {
     left: 0;
     width: 0;
     height: 100%;
-    background: var(--main-color);
+    background: var(--second-bg-color);
     z-index: -1;
     transition: width 0.5s;
 }
@@ -752,7 +761,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text p {
@@ -841,7 +850,8 @@ section:nth-child(odd) .animate.scroll,
 .about.show-animate .animate.scroll,
 .education.show-animate .animate.scroll,
 .skills.show-animate .animate.scroll,
-.contact.show-animate .animate.scroll {
+.contact.show-animate .animate.scroll,
+.projects.show-animate .animate.scroll {
     animation-delay: calc(.3s * var(--i));
     width: 0;
 }
