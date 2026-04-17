@@ -42,52 +42,51 @@ window.onscroll = () => {
 
 const projectImages = {
   lednlux: [
-    "/Images/Project-Images/LednLux/lednlux1.png",
-    "/Images/Project-Images/LednLux/lednlux2.png",
-    "/Images/Project-Images/LednLux/lednlux3.png",
-    "/Images/Project-Images/LednLux/lednlux4.png",
-    "/Images/Project-Images/LednLux/lednlux5.png",
-    "/Images/Project-Images/LednLux/lednlux6.png",
-    "/Images/Project-Images/LednLux/lednlux7.png",
-    "/Images/Project-Images/LednLux/lednlux8.png",
+    "Images/Project-Images/LednLux/lednlux1.png",
+    "Images/Project-Images/LednLux/lednlux2.png",
+    "Images/Project-Images/LednLux/lednlux3.png",
+    "Images/Project-Images/LednLux/lednlux4.png",
+    "Images/Project-Images/LednLux/lednlux5.png",
+    "Images/Project-Images/LednLux/lednlux6.png",
+    "Images/Project-Images/LednLux/lednlux7.png",
+    "Images/Project-Images/LednLux/lednlux8.png",
   ],
 
   replayvr: [
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot1.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot2.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot3.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot4.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot5.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot6.png",
-    "/Images/Project-Images/ReplayVr/ReplayVrScreenshot7.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot1.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot2.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot3.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot4.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot5.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot6.png",
+    "Images/Project-Images/ReplayVr/ReplayVrScreenshot7.png",
   ],
 
   belisol: [
-    "/Images/BelisolKleurenConfig1.png",
-    "/Images/BelisolKleurenConfig2.png",
-    "/Images/BelisolKleurenConfig3.png",
+    "Images/Project-Images/Belisol/BelisolKleurenConfig1.png",
+    "Images/Project-Images/Belisol/BelisolKleurenConfig2.png",
+    "Images/Project-Images/Belisol/BelisolKleurenConfig3.png",
   ],
 
   grondwaterzuivering: [
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering1.png",
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering2.png",
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering3.png",
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering4.png",
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering5.png",
-    "/Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering6.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering1.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering2.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering3.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering4.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering5.png",
+    "Images/Project-Images/Grondwaterzuivering-frontend/Grondwaterzuivering6.png",
   ],
 
   energysector: [
-    "/Images/Project-Images/Energy-Sector/EnergySector1.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector2.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector3.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector4.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector5.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector6.png",
-    "/Images/Project-Images/Energy-Sector/EnergySector7.png",
-    "/Images/Project-Images/Energy-Sector/EnergySectorExtra.png",
+    "Images/Project-Images/Energy-Sector/EnergySector1.png",
+    "Images/Project-Images/Energy-Sector/EnergySector2.png",
+    "Images/Project-Images/Energy-Sector/EnergySector3.png",
+    "Images/Project-Images/Energy-Sector/EnergySector4.png",
+    "Images/Project-Images/Energy-Sector/EnergySector5.png",
+    "Images/Project-Images/Energy-Sector/EnergySector6.png",
+    "Images/Project-Images/Energy-Sector/EnergySector7.png",
+    "Images/Project-Images/Energy-Sector/EnergySectorExtra.png",
   ]
-
 };
 
 const slideshows = document.querySelectorAll(".project-slideshow");
