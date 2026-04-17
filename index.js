@@ -63,9 +63,9 @@ const projectImages = {
   ],
 
   belisol: [
-    "/Images/Project-Images/Belisol/BelisolKleurenConfig1.png",
-    "/Images/Project-Images/Belisol/BelisolKleurenConfig2.png",
-    "/Images/Project-Images/Belisol/BelisolKleurenConfig3.png",
+    "/Images/BelisolKleurenConfig1.png",
+    "/Images/BelisolKleurenConfig2.png",
+    "/Images/BelisolKleurenConfig3.png",
   ],
 
   grondwaterzuivering: [
