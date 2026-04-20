@@ -89,12 +89,12 @@ const projectImages = {
   ],
 
   lednluxVr: [
-    "Images/Project-Images/LednLuxVr/LednLux1.png",
-    "Images/Project-Images/LednLuxVr/LednLux2.png",
-    "Images/Project-Images/LednLuxVr/LednLux3.png",
-    "Images/Project-Images/LednLuxVr/LednLux4.png",
-    "Images/Project-Images/LednLuxVr/LednLux5.png",
-    "Images/Project-Images/LednLuxVr/LednLux6.png",
+    "Images/Project-Images/LednLuxVr/LednLux1New.png",
+    "Images/Project-Images/LednLuxVr/LednLux2New.png",
+    "Images/Project-Images/LednLuxVr/LednLux3New.png",
+    "Images/Project-Images/LednLuxVr/LednLux4New.png",
+    "Images/Project-Images/LednLuxVr/LednLux5New.png",
+    "Images/Project-Images/LednLuxVr/LednLux6New.png",
   ],
 
   agri: [
