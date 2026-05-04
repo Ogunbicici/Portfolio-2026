@@ -111,6 +111,14 @@ const projectImages = {
     "Images/Project-Images/Logis/Logis4.png",
     "Images/Project-Images/Logis/Logis5.png",
   ],
+
+  webshop: [
+    "Images/Project-Images/Webshop/WebshopSRC1.png",
+    "Images/Project-Images/Webshop/WebshopSRC2.png",
+    "Images/Project-Images/Webshop/WebshopSRC3.png",
+    "Images/Project-Images/Webshop/WebshopSRC4.png",
+    "Images/Project-Images/Webshop/WebshopSRC5.png",
+  ],
 };
 
 const slideshows = document.querySelectorAll(".project-slideshow");

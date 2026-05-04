@@ -574,36 +574,41 @@ span {
 
 /* 8 */
 .skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
-    width: 78%;
+    width: 65%;
 }
 
 /* 9 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 80%;
+    width: 78%;
 }
 
 /* 10 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
-    width: 86%;
+    width: 80%;
 }
 
 /* 11 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
-    width: 85%;
+    width: 86%;
 }
 
 /* 12 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 75%;
+    width: 85%;
 }
 
 /* 13 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
-    width: 65%;
+    width: 75%;
 }
 
 /* 14 */
 .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
+    width: 65%;
+}
+
+/* 15 */
+.skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
     width: 65%;
 }
 
